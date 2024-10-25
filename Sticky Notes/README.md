@@ -18,4 +18,4 @@ A simple, interactive Sticky Notes web application built with HTML, CSS, and Jav
 
 ## Live Demo
 
-Check out the live demo of the Sticky Notes Web App here: 
+Check out the live demo of the Sticky Notes Web App here: [here](https://stickynotesjs.netlify.app/)
