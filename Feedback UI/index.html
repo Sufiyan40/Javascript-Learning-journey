@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex items-center justify-center min-h-screen">
+    <div id="feedbackContainer" class="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full text-center">
+        <h2 class="text-2xl font-bold mb-6">Feedback UI</h2>
+        <div class="flex justify-around mb-6">
+            <div id="unhappy" class="feedback-option p-4 rounded-lg ">
+                <span class="block text-3xl">😞</span>
+                <span>Unhappy</span>
+            </div>
+            <div id="neutral" class="feedback-option p-4 rounded-lg ">
+                <span class="block text-3xl">😐</span>
+                <span>Neutral</span>
+            </div>
+            <div id="satisfied" class="feedback-option p-4 rounded-lg ">
+                <span class="block text-3xl">😊</span>
+                <span>Satisfied</span>
+            </div>
+        </div>
+        <button id="sendReview" class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600">
+            Send Review
+        </button>
+    </div>
+    <div id="feedbackResult" class="hidden bg-white p-8 rounded-lg shadow-lg max-w-sm w-full text-center">
+        <h3 class="text-xl font-bold mb-4">Thank you!</h3>
+        <p class="text-lg">Feedback: <span id="selectedFeedback"></span></p>
+        <p class="text-gray-700 mt-4">We'll use your feedback to improve our customer support.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(187, 83%, 77%);
+}
+
+.feedback-option {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-option.selected {
+    background-color: #c8e6c9;
+}
+
+.feedback-option:hover {
+    background-color: #a5d6a7;
+}
