@@ -1,0 +1,23 @@
+body {
+    background-size: 50%;
+    
+  }
+  
+  #display.running {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .btn-click-animation:active {
+    transform: scale(0.95);
+  }
