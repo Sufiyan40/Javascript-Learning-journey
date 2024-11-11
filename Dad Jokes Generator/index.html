@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Jokes Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dad Jokes Generator</h1>
+        <button id="get-joke">Get a Joke</button>
+        <p id="joke"></p>
+        
+        <!-- Reaction buttons -->
+        <div class="reaction-buttons">
+            <button id="like">👍 Like</button>
+            <button id="dislike">👎 Dislike</button>
+            <button id="copy-joke">📋 Copy Joke</button>
+        </div>
+
+        <!-- Joke rating section -->
+        <div class="rating">
+            <span id="rating-text">Rate this joke:</span>
+            <span class="star" data-rating="1">⭐</span>
+            <span class="star" data-rating="2">⭐</span>
+            <span class="star" data-rating="3">⭐</span>
+            <span class="star" data-rating="4">⭐</span>
+            <span class="star" data-rating="5">⭐</span>
+        </div>
+        <p id="rating-result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
