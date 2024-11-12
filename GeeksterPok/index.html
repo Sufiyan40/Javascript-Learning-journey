@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <img src="img/pokeman.png" alt="heading">
+        </div>
+    </header>
+    <main>
+        <div class="getPokemon">
+            <select name="pokemonType" id="selectType">
+                <option value="">Select Type</option>
+                <option value="normal">Normal</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="grass">Grass</option>
+                <option value="electric">Electric</option>
+                <option value="ice">Ice</option>
+                <option value="fighting">Fighting</option>
+                <option value="poison">Poison</option>
+                <option value="ground">Ground</option>
+                <option value="flying">Flying</option>
+            </select>
+            <button id="getButton">Get Pokemon</button>
+            <button id="reset"><a href='./index.html'>Reset</a></button>
+            <input type="text" name="search" id="search" placeholder="Search Pokemon">
+        </div>
+        <div id="pokemonContainer"></div>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
