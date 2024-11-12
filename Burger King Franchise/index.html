@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="orderButton">Order Food</button>
+    
+    <div id="foodItems">
+      <label><input type="checkbox" name="foodItem" value="Burger"> Burger</label>
+      <label><input type="checkbox" name="foodItem" value="Fries"> Fries</label>
+      <label><input type="checkbox" name="foodItem" value="Drink"> Drink</label>
+    </div>
+
+    <div id="orderStatus" class="hidden">Preparing your order...</div>
+    <div class="loader hidden" id="loader"></div>
+    
+    <img id="foodImage" src="" alt="Food" class="hidden" />
+    <div id="orderId" class="hidden">Order ID: <span id="orderIdValue"></span></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
